@@ -1,0 +1,38 @@
+{
+    "name": "la5erdance/yii2-load-more-pager",
+    "description": "The pagination widget for the Yii2 version is \"Load more\" button.",
+    "keywords": [
+		"yii2",
+		"pagination",
+		"widget",
+		"load more",
+		"button"
+    ],
+    "homepage": "https://github.com/la5erdance/yii2-load-more-pager",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andrey Tanasov",
+            "email": "info@tanasov.net"
+        }
+    ],
+    "require": {
+		"php": ">=7.0",	
+		"yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+             "la5erdance\\loadmore\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/la5erdance/yii2-load-more-pager"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800
+    }	
+}
