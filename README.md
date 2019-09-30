@@ -2,6 +2,7 @@ yii2 load-more-pagination widget
 ===========================
 Это виджет пагинации для Yii2 версии.
 
+
 ## Установка
 
 ```
@@ -13,6 +14,7 @@ php composer require la5erdance/yii2-load-more-pager "*"
 ```json
 "la5erdance/yii2-load-more-pager": "*"
 ```
+
 
 ## Пример
 ```php 
@@ -42,6 +44,7 @@ ListView::widget([
   ],
 ]) 
 ```
+
 
 ## Использование
 
